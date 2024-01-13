@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Free Rest Api. No Need Api Key And Unlimited Requests...">
+    <meta name="author" content="Vihanga YT">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/123985221?v=4">
+    <title>Zeltoria-APIs │ Docs</title>
+    <script src="https://kit.fontawesome.com/5367cb78eb.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/123985221?v=4"/> 
+    <link href="https://zeltoria.github.io/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://zeltoria.github.io/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="https://zeltoria.github.io/css/default.css" rel="stylesheet">
+    <link href="https://zeltoria.github.io/css/style.css" rel="stylesheet">
+</head>
+
+<body id="page-top" class="dark-mode">
+    <div id="wrapper">
+   
+        <ul class="navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
+                <img src="https://avatars.githubusercontent.com/u/123985221?v=4" class="rounded-circle shadow-4"style="width: 50px;" alt="Avatar" />
+                <div class="sidebar-brand-text mx-3">Zeltoria</div>
+            </a>
+            <hr class="sidebar-divider my-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="/count">
+                    <i class="fas fa-fw fa-thermometer-three-quarters"></i>
+                    <span>Status</span></a>
+            </li>
+            <hr class="sidebar-divider">
+            <div class="sidebar-heading">
+                Feature List
+            </div>
+          <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseAnimanga" aria-expanded="true" aria-controls="collapseBootstrap">
+                  <i class="fa fa-book"></i>
+                    <span>Animanga</span>
+                </a>
+                <div id="collapseAnimanga" class="collapse" aria-labelledby="headingBootstrap" data-parent="#accordionSidebar">
+                    <div class="py-2 collapse-inner rounded">
+                      <a class="collapse-item" href="api/animanga/komikuid-latest" target="_blank">Komiku Latest</a>
+                      <a class="collapse-item" href="api/animanga/anoboy-latest" target="_blank">Anoboy Latest</a>
+                      <a class="collapse-item" href="api/animanga/otakudesu-latest" target="_blank">Otakudesu Latest</a>
+                      <a class="collapse-item" href="api/animanga/doujindesu-latest" target="_blank">Doujindesu Latest</a>
+                      <a class="collapse-item" href="api/animanga/komikuid?q=naruto" target="_blank">Komiku Search</a>
+                      <a class="collapse-item" href="api/animanga/anoboy?q=" target="_blank">Anoboy Search</a>
+                      <a class="collapse-item" href="api/animanga/otakudesu?q=naruto" target="_blank">Otakudesu Search</a>
+                      <a class="collapse-item" href="api/animanga/doujindesu?q=" target="_blank">Doujindesu Search</a>
+                      <a class="collapse-item" href="api/animanga/komikuid-detail?url=https://komiku.id/manga/boruto-two-blue-vortex/" target="_blank">Komiku Detail</a>
+                      <a class="collapse-item" href="api/animanga/anoboy-detail?url=https://anoboy.show/2023/09/rurouni-kenshin-meiji-kenkaku-romantan-2023-episode-9/" target="_blank">Anoboy Detail</a>
+                      <a class="collapse-item" href="api/animanga/otakudesu-detail?url=https://otakudesu.lol/anime/borto-sub-indo/" target="_blank">Otakudesu Detail</a>
+                      <a class="collapse-item" href="api/animanga/doujindesu-detail?url=" target="_blank">Doujindesu Detail</a>
+                    </div>
+                </div>
+            </li>
+          
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseDownload" aria-expanded="true" aria-controls="collapseBootstrap">
+                  <i class="fa fa-fw fa-arrow-down"></i>
+                    <span>Download</span>
+                </a>
+                <div id="collapseDownload" class="collapse" aria-labelledby="headingBootstrap" data-parent="#accordionSidebar">
+                    <div class="py-2 collapse-inner rounded">
+                      <a class="collapse-item" href="api/download/facebook?url=https://www.facebook.com/reel/947495549897838" target="_blank">Facebook</a>
+                      <a class="collapse-item" href="api/download/mediafire?url=https://www.mediafire.com/file/s9co8o5n5ftch9q/RULLMDV5.7z/file" target="_blank">Mediafire</a>
+                      <a class="collapse-item" href="api/download/tiktok?url=https://vt.tiktok.com/ZGJBtcsDq/" target="_blank">Tiktok</a>
+                      <a class="collapse-item" href="api/download/soundcloud?url=https://soundcloud.com/eugenia-birgitta-marsha/nadin-amizah-bertaut" target="_blank">SoundCloud</a>
+                      <a class="collapse-item" href="api/download/twitter?url=https://twitter.com/MemeComicIndo/status/1532598433768300544?s=20" target="_blank">Twitter</a>                        <a class="collapse-item" href="api/download/play?q=lovely billie elish" target="_blank">Youtube Play</a>
+                      <a class="collapse-item" href="api/download/ytmp3?url=https://www.youtube.com/watch?v=sAuEeM_6zpk" target="_blank">Youtube Mp3</a>
+                      <a class="collapse-item" href="api/download/ytmp4?url=https://www.youtube.com/watch?v=sAuEeM_6zpk" target="_blank">Youtube Mp4</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSearch" aria-expanded="true" aria-controls="collapseTable">
+                  <i class="fa fa-globe fa-arrow-down"></i>
+                    <span>Internet</span>
+                </a>
+                <div id="collapseSearch" class="collapse" aria-labelledby="headingTable" data-parent="#accordionSidebar">
+                    <div class="py-2 collapse-inner rounded">
+            <a class="collapse-item" target="_blank" href="api/search/wallpaper?q=milf">Wallpaper</a> 
+            <a class="collapse-item" target="_blank" href="api/search/pinterest?q=milf">Pinterest</a> 
+            <a class="collapse-item" target="_blank" href="api/search/unplash?q=whatsapp">Unplash</a>          
+            <a class="collapse-item" target="_blank" href="api/search/danbooru?q=milf">Danbooru</a>             <a class="collapse-item" target="_blank" href="api/search/music?q=alan walker">Music</a>
+            <a class="collapse-item" target="_blank" href="api/search/wikimedia?q=jokowi">Wikimedia</a>
+            <a class="collapse-item" target="_blank" href="api/search/soundcloud?q=dj terbaru">Soundcloud</a>
+            <a class="collapse-item" target="_blank" href="api/search/ringtone?q=dangdut">Ringtone</a>
+            <a class="collapse-item" target="_blank" href="api/search/playstore?q=whatsapp">Playstore</a>
+            <a class="collapse-item" target="_blank" href="api/search/lirik?q=different world">Lyrics</a>
+            <a class="collapse-item" target="_blank" href="api/search/kodepos?q=jakarta">KodePos</a>
+            <a class="collapse-item" target="_blank" href="api/search/bukalapak?q=baju">Bukalapak</a>
+            <a class="collapse-item" target="_blank" href="api/search/google?q=megawati">Google</a>
+            <a class="collapse-item" target="_blank" href="api/search/acaranow">AcaraNow</a>                    <a class="collapse-item" target="_blank" href="api/search/sepakbola">Sepakbola</a>
+            <a class="collapse-item" target="_blank" href="api/search/jadwaltv?q=mnctv">JadwalTv</a>
+            <a class="collapse-item" target="_blank" href="api/search/heroml?q=miya">HeroML</a>
+                      
+            </div>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseNews" aria-expanded="true" aria-controls="collapseTable">
+                  <i class="fa fa-circle-info"></i>
+                    <span>Information</span>
+                </a>
+                <div id="collapseNews" class="collapse" aria-labelledby="headingTable" data-parent="#accordionSidebar">
+                    <div class="py-2 collapse-inner rounded">
+            <a class="collapse-item" target="_blank" href="api/news/tixid">TixID</a>
+            <a class="collapse-item" target="_blank" href="api/news/rumahkeadilan">Rumah Keadilan</a>
+            <a class="collapse-item" target="_blank" href="api/news/kompas-global">Kompas Global</a>
+            <a class="collapse-item" target="_blank" href="api/news/kompas-news">Kompas News</a>
+            <a class="collapse-item" target="_blank" href="api/news/kompas-populer">Kompas Populer</a>
+            </div>
+                </div>
+            </li>
+
+          <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseGame" aria-expanded="true" aria-controls="collapseTable">
+                  <i class="fa fa-gamepad"></i>
+                    <span>Games</span>
+                </a>
+                <div id="collapseGame" class="collapse" aria-labelledby="headingTable" data-parent="#accordionSidebar">
+                    <div class="py-2 collapse-inner rounded">
+            <a class="collapse-item" target="_blank" href="api/game/asahotak">Asah Otak</a>
+            <a class="collapse-item" target="_blank" href="api/game/caklontong">Cak Lontong</a>
+            <a class="collapse-item" target="_blank" href="api/game/family100">Family 100</a>
+            <a class="collapse-item" target="_blank" href="api/game/siapakahaku">Siapakah Aku</a>
+            <a class="collapse-item" target="_blank" href="api/game/susunkata">Susun Kata</a>
+            <a class="collapse-item" target="_blank" href="api/game/tebakchara">Tebak Chara</a>
+            <a class="collapse-item" target="_blank" href="api/game/tebakgambar">Tebak Gambar</a>
+            <a class="collapse-item" target="_blank" href="api/game/tebakgame">Tebak Game</a>
+            <a class="collapse-item" target="_blank" href="api/game/lengkapikalimat">Lengkapi Kalimat</a>
+            </div>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTools" aria-expanded="true" aria-controls="collapseTable">
+                  <i class="fa fa-tools"></i>
+                    <span>Tools</span>
+                </a>
+                <div id="collapseTools" class="collapse" aria-labelledby="headingTable" data-parent="#accordionSidebar">
+                    <div class="py-2 collapse-inner rounded">
+            <a class="collapse-item" target="_blank" href="api/tools/chatgpt?q=apa kabar">Gpt</a>
+            <a class="collapse-item" target="_blank" href="api/tools/blur?url=https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2022/12/21/1747825242.jpg">Blur</a>                 
+            <a class="collapse-item" target="_blank" href="api/tools/remini?url=https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2022/12/21/1747825242.jpg">Remini</a>          
+            <a class="collapse-item" target="_blank" href="api/tools/ssweb?url=https://zeltoria.site">Ss Web</a>
+            <a class="collapse-item" target="_blank" href="api/tools/translate?q=happy&lang=id">Translate</a>
+            <a class="collapse-item" target="_blank" href="api/tools/chara-genshin?q=nahida">Chara Genshin</a>          
+            <a class="collapse-item" target="_blank" href="api/tools/translate?q=happy&lang=id">Text To Speech</a>
+            </div>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseRandom" aria-expanded="true" aria-controls="collapseTable">
+                  <i class="fa fa-camera"></i>
+                    <span>Random</span>
+                </a>
+                <div id="collapseRandom" class="collapse" aria-labelledby="headingTable" data-parent="#accordionSidebar">
+                    <div class="py-2 collapse-inner rounded">
+            <a class="collapse-item" target="_blank" href="api/random/nekopoi">Nekopoi</a>
+            <a class="collapse-item" target="_blank" href="api/random/anime">Anime</a>
+            <a class="collapse-item" target="_blank" href="api/random/nsfw">NSFW</a>
+            <a class="collapse-item" target="_blank" href="api/random/husbu">Husbu</a>
+            <a class="collapse-item" target="_blank" href="api/random/waifu">Waifu</a>
+            <a class="collapse-item" target="_blank" href="api/random/quotes-anime">Katanime</a>
+            <a class="collapse-item" target="_blank" href="api/random/hentai">Hentai</a>
+            <a class="collapse-item" target="_blank" href="api/random/neko">Nekonime</a>
+            <a class="collapse-item" target="_blank" href="api/random/cosplay">Cosplayer</a>
+            <a class="collapse-item" target="_blank" href="api/random/icon">Icon Anime</a>
+</div>
+                </div>
+            </li>
+          <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseMaker" aria-expanded="true" aria-controls="collapseTable">
+                  <i class="fa fa-paint-brush"></i>
+                    <span>Maker</span>
+                </a>
+                <div id="collapseMaker" class="collapse" aria-labelledby="headingTable" data-parent="#accordionSidebar">
+                    <div class="py-2 collapse-inner rounded">
+            <a class="collapse-item" target="_blank" href="api/maker/ttp?q=Kamu">ATTP</a>          
+            <a class="collapse-item" target="_blank" href="api/maker/ttp?q=Kamu">TTP</a>
+            <a class="collapse-item" target="_blank" href="api/maker/ttp2?q=Kamu">TTP2</a>
+            <a class="collapse-item" target="_blank" href="api/maker/tolol?q=Kamu">Sertifikat Tolol</a>          
+</div>
+                </div>
+            </li>
+          <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseOthers" aria-expanded="true" aria-controls="collapseTable">
+                  <i class="fa fa-link"></i>
+                    <span>Others</span>
+                </a>
+                <div id="collapseOthers" class="collapse" aria-labelledby="headingTable" data-parent="#accordionSidebar">
+                    <div class="py-2 collapse-inner rounded">
+            <a class="collapse-item" target="_blank" href="api/others/simi?q=aku sange">Simi</a>    
+            <a class="collapse-item" target="_blank" href="api/others/kisahnabi?q=muhammad">Kisah Nabi</a>
+</div>
+                </div>
+            </li>
+
+            <hr class="sidebar-divider">
+        </ul>
+ 
+        <div id="content-wrapper" class="d-flex flex-column">
+            <div id="content">
+              
+                <nav class="navbar navbar-expand navbar-light bg-navbar topbar mb-4 static-top">
+                    <button id="sidebarToggleTop" class="btn btn-link rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="https://avatars.githubusercontent.com/u/123985221?v=4" class="rounded-circle shadow-4"style="width: 50px;" alt="Avatar" />
+                                <span class="ml-2 d-none d-lg-inline small font-weight-bold"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="container-fluid" id="container-wrapper">
+                    <div class="card h-50 mb-4">
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class="col mr-2">
+                                    <div class="text-md-left font-weight-bold mb-2 text-primary">Rest Api By Zeltoria</div>
+                                    <div class="text-sm-left mb-0 font-weight-bold">I Hope You Like This Api :3
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <i class="fas fa-quote-right fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card h-50">
+                                <div class="card-body">
+                                    <div class="row align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-uppercase mb-1">Response</div>
+                                            <div class="h5 mb-0 font-weight-bold" id="speed">Loading...</div>
+                                        <script>
+                                            setInterval(function() {
+                                            var xhr = new XMLHttpRequest();
+                                            xhr.open("GET", "https://zeltoria.site/api/status");
+                                            xhr.responseType = "json";
+                                            xhr.onload = () => document.getElementById('speed').innerText = '' + xhr.response.speed + '';
+                                            xhr.send()
+                                        }, 1000);
+                                        </script>
+                                        </div>
+                                        <div class="col-auto">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card h-50">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-uppercase mb-1">Battery</div>
+                                            <span id="battery_level" class="h5 mb-0 font-weight-bold">100 </span>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fa fa-battery-full" ></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     
+                         <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card h-50">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-uppercase mb-1">Status</div>
+                                            <div class="text-sm-left mb-0 font-weight-bold" id="statussites">Loading...</div>
+                                            <script>
+                                                setInterval(function() {
+                                                var xhr = new XMLHttpRequest();
+                                                xhr.open("GET", "https://zeltoria.site/api/status");
+                                                xhr.responseType = "json";
+                                                xhr.onload = () => document.getElementById('statussites').innerHTML = `<div class="text-sm-left mb-0 font-weight-bold" id="statussites"><i class="fa-solid fa-memory fa-sm"></i> ${xhr.response.memory}</div>`
+                                                xhr.send()
+                                            }, 1000);
+                                            </script>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fa-solid fa-circle-info fa-2xl"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card h-50">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-uppercase mb-1">Time</div>
+                                            <div class="h5 mb-0 font-weight-bold" id="row-no-guttersalign-items-center">Loading...</div>
+                                            <div class="h5 mb-0 font-weight-bold" id="text-xsfont-weight-boldtext-uppercase-mb-1"></div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-calendar fa-2x text-primary"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            Contact Me
+                            <p>
+                                <a href="https://instagram.com/Zeltoria" class="btn btn-primary btn-sm mr-2" target="_blank"><i class="fab fa-fw fa-instagram"></i>&nbsp;Instagram</a>
+                                <a href="https://wa.me//6285760451683" class="btn btn-primary btn-sm ml-2" target="_blank"><i class="fa-brands fa-whatsapp"></i>&nbsp;Whatsapp</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+             
+            <footer class="sticky-footer">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        Made by
+                        <a href="https://github.com/Zeltoria" target="_blank" style="color: rgb(224, 32, 7);">Zeltoria</a>
+                        </span>
+                    </div>
+                </div>
+            </footer>
+       
+        </div>
+    </div>
+
+    
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+          
+    <script src="https://zeltoria.github.io/vendor/jquery/jquery.min.js"></script>
+    <script src="https://zeltoria.github.io/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://zeltoria.github.io/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="https://zeltoria.github.io/js/ruang-admin.min.js"></script>
+    <script src="https://zeltoria.github.io/js/menu.js"></script>
+    
+
+</body>
+
+</html>
